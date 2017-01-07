@@ -1,0 +1,67 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="au.edu.une.cosc370.stroop.StroopExperimentFrag">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <Button
+        android:text="Start"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/startButton"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="26dp"
+        />
+
+    <TextView
+        android:text="RED"
+        android:textSize="36dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/word"
+        android:layout_alignTop="@+id/startButton"
+        android:layout_centerHorizontal="true" />
+
+
+    <TextView
+        android:text="results"
+        android:textSize="16dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/results"
+        android:layout_marginTop="16dp"
+        android:layout_alignTop="@+id/word"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:text="Start again"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/restartButton"
+        android:layout_marginTop="16dp"
+        android:layout_below="@+id/results"
+        android:layout_centerHorizontal="true"
+        />
+
+    <GridLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:columnCount="3"
+        android:verticalSpacing="10dp"
+        android:horizontalSpacing="10dp"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/colourButtons"
+        android:layout_marginTop="16dp"
+        android:layout_below="@+id/word"
+        android:gravity="center"
+        >
+
+    </GridLayout>
+
+
+
+
+</RelativeLayout>

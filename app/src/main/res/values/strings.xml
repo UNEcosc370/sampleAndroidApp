@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Stroop effect app</string>
+    <string name="Instruction">
+        You are going to be shown 40 words, one at a time. When a word appears, you should click the button for the colour the word is written in (not what it spells).
+        You will be timed, and your mistakes counted.
+    </string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
